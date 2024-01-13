@@ -2,7 +2,7 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { extractCurrency, extractDescription, extractPrice } from "../utils";
 
-export async function scrapeAmazonPruduct(url: string) {
+export async function scrapeAmazonProduct(url: string) {
   if (!url) return;
 
   // curl --proxy brd.superproxy.io:22225 --proxy-user brd-customer-hl_53fba6ac-zone-echoextractor:p31on2vay030 -k https://lumtest.com/myip.json
